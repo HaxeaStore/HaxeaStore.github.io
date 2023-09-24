@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #8a2be2, #00008b);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00008b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item {
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.price {
+    font-size: 24px;
+}
+
+button {
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modalAvalibleA {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal p {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item {
+    margin: 20px auto;
+    text-align: center;
+    display: inline-block; /* Make items display inline */
+    vertical-align: top; /* Align items to the top */
+    width: 45%; /* Adjust the width as needed */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Add styles for the "Saturn" button */
+.buyButton {
+    background-color: #007acc; /* Blue gradient background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+#closeModalButton {
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    backdrop-filter: blur(10px); /* Add blur effect here */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.navigation li {
+    float: left;
+    margin-right: 20px;
+}
+
+.navigation a {
+    display: block;
+    color: rgb(4, 209, 100);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #0bba8b;
+    color: rgb(130, 18, 190);
+}
